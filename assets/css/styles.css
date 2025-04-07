@@ -682,12 +682,6 @@ nav {
     border-color: #3498db;
 }
 
-/* Para pantallas pequeñas */
-@media (max-width: 600px) {
-    .thumbnail {
-        width: calc(33.333% - 7px);
-    }
-}
 
 
 
