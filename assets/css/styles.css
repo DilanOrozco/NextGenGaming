@@ -299,7 +299,6 @@ nav {
     list-style: none;
     margin:auto;
     margin-left: 6em;
-    min-height: 50px;
     border-left: 2px dashed #141414;
     padding: 0 0 50px 50px;
     position: relative;
@@ -400,17 +399,7 @@ nav {
 }
 
 .release-date {
-    font-family: 'Noto Sans JP Variable';
-    font-size: 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10rem;
-    height: 1.5rem;
-    color: #fff;
     background-color: #333;
-    padding: 5px;
-    margin-bottom: 5px;
 }
 
 .f2{
