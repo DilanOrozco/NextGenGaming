@@ -1,0 +1,112 @@
+{
+    "productos" : [
+        {
+            "id" : 1, 
+            "name" : "God Of War: Ragnarok", 
+            "img"  : "https://media.revistagq.com/photos/613b43731df3ece1388a2f67/16:9/w_1280,c_limit/God-of-War-Ragnarok-Featured-image.jpeg",
+            "platform" : ["PS5", "PS4"]
+        },  
+        {
+            "id" : 2, 
+            "name" : "The Legend Of Zelda: Tears Of The Kingdom", 
+            "img"  : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4FItMFHsbRZVHKcwqm0fr3Z-nYMg-3waenmeaiJQv3aeSOdisQCJEclg6sv5_X0tWh5I&usqp=CAU",
+            "platform" : ["Nintendo Switch"]
+        },
+        {
+            "id" : 3, 
+            "name" : "Elden Ring Shadow Of The Erdtree Edition", 
+            "img"  : "data:image/jpeg;base64,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",
+            "platform" : ["PS5", "PS4", "Xbox One", "PC"]
+        },
+        { 
+            "id" : 4, 
+            "name" : "Horizon Forbidden West: Burning Shores", 
+            "img"  : "https://i0.wp.com/nerfeados.com/wp-content/uploads/2023/04/HorizonBurning_Portada.jpg?fit=1920%2C1080&ssl=1",
+            "platform" : ["PS5"]
+        },
+        {
+            "id" : 5, 
+            "name" : "Need For Speed Heat", 
+            "img"  : "https://storage.yandexcloud.net/igm-s3/PROD/202408/458c1aa7/sistemnye-trebovaniya-need-for-speed-heat_1_11zon.jpg",
+            "platform" : ["PS4", "Xbox One", "PC"]
+        },
+        {
+            "id" : 6, 
+            "name" : "Dark Souls Remaster", 
+            "img"  : "https://static.bandainamcoent.eu/high/dark-souls/dark-souls-hd/00-page-setup/ds-hd_game-thumbnail.jpg",
+            "platform" : ["PS4", "Xbox One", "PC", "Nintendo Switch"]
+        },
+        {
+            "id" : 7, 
+            "name" : "Resident Evil 4 Remake", 
+            "img"  : "https://nerfeados.com/wp-content/uploads/2023/05/RE4R_Portada.jpg",
+            "platform" : ["PS5", "PS4", "PC"]
+        },
+        {
+            "id" : 8, 
+            "name" : "Final Fantasy VII Rebirth", 
+            "img"  : "https://cdn.dlcompare.com/others_jpg/upload/news/image/final-fantasy-vii-rebirth-recibi-f7372086-image-f7372075.jpg.webp",
+            "platform" : ["PS5"]
+        },
+        {
+            "id" : 9, 
+            "name" : "Spider-Man 2", 
+            "img"  : "https://media.vandal.net/m/106797/marvels-spiderman-2-20236910113885_1.jpg",
+            "platform" : ["PS5"]
+        },
+        {
+            "id" : 10, 
+            "name" : "Cyberpunk 2077: Phantom Liberty", 
+            "img"  : "https://www.godisageek.com/wp-content/uploads/Cyberpunk-2077-Phantom-Liberty-expansion-revealed.jpg",
+            "platform" : ["PS5", "PC"]
+        },
+        {
+            "id" : 11, 
+            "name" : "Assassin’s Creed Mirage", 
+            "img"  : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2vbv4p9mHcKKrzWvXJQVsPq3yI7ek0egh3w&s",
+            "platform" : ["PS5", "PS4", "Xbox One", "PC"]
+        },
+        {
+            "id" : 12, 
+            "name" : "Star Wars Jedi: Survivor", 
+            "img"  : "https://caracol.com.co/resizer/v2/47ECUBJLS5DLTDZK4BLSTWZHDM.jpg?auth=bd046439d55a7cd7cbb6a0cbc23257b495d3c9b75a3ad997c1c33c344ee28505&width=650&height=488&quality=70&smart=true",
+            "platform" : ["PS5", "PC"]
+        },
+        {
+            "id" : 13, 
+            "name" : "Alan Wake 2", 
+            "img"  : "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/05/alan-wake-2-3043206.jpg",
+            "platform" : ["PS5", "PC"]
+        },
+        {
+            "id" : 14, 
+            "name" : "Mortal Kombat 1", 
+            "img"  : "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/09/15/416ecaf2b43aa7693c5f81c4b23ede1ef10287441bf6ccec-rlam23avdid1.jpg",
+            "platform" : ["PS5", "Nintendo Switch", "PC"]
+        },
+        {
+            "id" : 15, 
+            "name" : "Dead Space Remake", 
+            "img"  : "https://sm.ign.com/ign_es/review/d/dead-space/dead-space-review_q4z8.jpg",
+            "platform" : ["PS5", "PC"]
+        },
+        {
+            "id" : 16, 
+            "name" : "Baldur’s Gate 3", 
+            "img"  : "https://s2-techtudo.glbimg.com/MLH2_15buNGI-LzB0ns5JDhCK2k=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/e/q/wsFHASQkWzZ2ApPdFrww/baldur-gate-3.jpg",
+            "platform" : ["PS5", "PC"]
+        },
+        {
+            "id" : 17, 
+            "name" : "Lies of P", 
+            "img"  : "https://gaming-cdn.com/images/news/articles/4688/cover/1000x563/nueva-colaboracion-entre-lies-of-p-y-wo-long-fallen-dynasty-el-14-de-febrero-cover65c34a94bfc3f.jpg",
+            "platform" : ["PS5", "PS4", "Xbox One", "PC"]
+        },
+        {
+            "id" : 18, 
+            "name" : "The Witcher 3: Wild Hunt", 
+            "img"  : "https://sm.ign.com/ign_es/news/t/the-witche/the-witcher-4s-new-director-promises-no-crunch-on-my-watch_y63d.jpg",
+            "platform" : ["PS5", "PS4", "Xbox One", "Nintendo Switch", "PC"]
+        }
+    ]
+}

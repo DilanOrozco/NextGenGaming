@@ -270,6 +270,12 @@ nav {
     align-items: center;
 }
 
+.contents-nav > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
 .rightbox{
     padding : 0em 34rem 0em 0em;
     height: 100%;
@@ -700,7 +706,199 @@ nav {
     }
 }
 
+.search{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0 auto;
+    border-bottom: 1px solid #696969;
+}
 
+.search > button{
+    padding-inline: 20px;
+    width: 12rem;
+    border: none;
+    background-color: white;
+}
+
+button:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+button.active {
+    color: red;
+}
+
+.container-games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px; 
+    width: 65%;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+.game-card {
+    width: 18rem;
+    height: 10rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+}
+
+.game-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.game-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 20, 20, 0.7);
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+.game-title:hover {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+.admin-actions {
+    width: 65%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+
+
+.btn-add-product {
+    background-color: #141414;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.btn-add-product:hover {
+    background-color: #ff0000;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.btn-add-product:focus {
+    outline: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: modalopen 0.3s;
+}
+
+@keyframes modalopen {
+    from {opacity: 0; transform: translateY(-50px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-item input {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
 
 
 

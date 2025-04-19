@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/2132230c71.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="cont-products">
+        <header class="header-products">
+          <a href="../index.html"><img src="../../img/logo-ngg-removebg-preview.png" alt="" width="150px"></a>
+        </header>
+        <div class="header-sub">
+          <h1>PRODUCTS</h1>
+          <div class="admin-actions">
+            <button id="btn-add-product" class="btn-add-product">Agregar Nuevo Producto</button>
+          </div>
+        </div>
+        <nav class="contents-nav">
+          <ul>
+            <li><a href="linetime.html">All (Chronological)</a></li>
+            <li><a href="platform.html">Plataforms</a></li>
+            <li>Sountrack</li>
+            <li>Mobile Apps</li>
+          </ul>
+        </nav>
+        <div class="search">
+          <button id="btn-all" class="btn-all active">Todos</button>
+            <button id="btn-ps5" class="btn-ps5">PS5</button>
+            <button id="btn-ps4" class="btn-ps4">PS4</button>
+            <button id="btn-xbox" class="btn-xbox">Xbox One</button>
+            <button id="btn-ns" class="btn-ns">Nintendo Switch</button>
+            <button id="btn-pc" class="btn-pc">Windows</button>
+        </div>
+
+        <section id="games">
+          <div id="container-games" class="container-games" >
+            
+          </div>
+        </section>
+        
+        <div id="productoModal" class="modal">
+          <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Agregar Nuevo Videojuego</h2>
+              
+              <form id="formularioProducto">
+                  <div class="form-group">
+                      <label for="nombre">Nombre del Juego:</label>
+                      <input type="text" id="nombre" name="nombre" required>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label for="imagen">URL de la Imagen:</label>
+                      <input type="url" id="imagen" name="imagen" required>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Plataformas:</label>
+                      <div class="checkbox-group">
+                          <div class="checkbox-item">
+                              <input type="checkbox" id="ps5" name="plataformas" value="PS5">
+                              <label for="ps5">PS5</label>
+                          </div>
+                          <div class="checkbox-item">
+                              <input type="checkbox" id="ps4" name="plataformas" value="PS4">
+                              <label for="ps4">PS4</label>
+                          </div>
+                          <div class="checkbox-item">
+                              <input type="checkbox" id="xbox" name="plataformas" value="Xbox One">
+                              <label for="xbox">Xbox One</label>
+                          </div>
+                          <div class="checkbox-item">
+                              <input type="checkbox" id="switch" name="plataformas" value="Nintendo Switch">
+                              <label for="switch">Nintendo Switch</label>
+                          </div>
+                          <div class="checkbox-item">
+                              <input type="checkbox" id="pc" name="plataformas" value="PC">
+                              <label for="pc">PC</label>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <button type="submit">Guardar Videojuego</button>
+              </form>
+          </div>
+      </div>
+      
+      <footer class="f2">
+        <div class="section-one-f2">
+          <div class="lenguaje">English<i class="fa-solid fa-repeat" style="color: #ffffff;"></i></div>
+          <div class="social">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+        <div class="section-two-f2">
+          <div class="p1">
+            <a href=""><p>>ACCESS</p></a>
+            <a href=""><p>>PRIVACY POLICY</p></a>
+            <a href=""><p>>SITE POLICY</p></a>
+            <a href=""><p>>SITEMAP</p></a>
+          </div>
+          <div class="p2">
+            <p>© 1994-2025 FromSoftware, Inc. All rights reserved.</p>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="../../assets/js/ModuloGames.js"></script>
+</body>
+</html>
